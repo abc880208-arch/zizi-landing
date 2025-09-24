@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>加入 芷芷 官方 LINE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="加入 芷芷 官方 LINE" />
+  <meta property="og:description" content="專屬溫柔 ✦ 貼心提醒 ✦ 立即加入芷芷的私密空間！" />
+  <meta property="og:image" content="https://https://raw.githubusercontent.com/abc880208-arch/zizi-landing/main/9%E6%9C%8824%E6%97%A5(3).png" />
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      text-align: center;
+      padding: 40px;
+      background: #fdfaff;
+      color: #333;
+    }
+    h1 {
+      color: #9b59b6;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 35px;
+      line-height: 1.6;
+    }
+    button {
+      background: linear-gradient(135deg, #9b59b6, #be93fd);
+      color: #fff;
+      border: none;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 13px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>💜 歡迎加入 芷芷 官方 LINE 💜</h1>
+  <p>
+    想收到專屬溫柔、<br>
+    貼心提醒與福利嗎？<br><br>
+    點下方按鈕立即加入 🤍
+  </p>
+
+  <button id="joinBtn">立即加入 LINE</button>
+
+  <div class="footer">
+     Massage ✦ 芷芷
+  </div>
+
+  <script>
+    document.getElementById('joinBtn').addEventListener('click', function(){
+      var appLink = "line://ti/p/@cutee_zizi";      // 改成 芷芷 的 LINE ID
+      var webLink = "https://line.me/R/ti/p/@cutee_zizi"; // 改成 芷芷 的 LINE 官方連結
+      window.location = appLink;
+      setTimeout(function(){ window.location = webLink; }, 1500);
+    });
+  </script>
+</body>
+</html>
